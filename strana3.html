@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="CSS_strana_2_3_4_5.css" >
+<style>
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 20px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        main {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        footer{
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: auto;
+        }
+        p{
+            border: #333;
+        }
+        .column {
+         float: left;
+         width: 30%;
+         padding: 15px;
+}
+        .row::after {
+         content: "";
+         display: table;
+         clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+        </style>
+</style>
+</head>
+<body>
+  <!-- href="CSS_strana_2_3_4_5.css"-->
+     <header>
+          <h1>Naše služby</h1>
+      </header>
+      <img src="sito ikona.png" alt="Síto" 
+      style= "float:left;
+              width:160px;
+             height:160px;
+              position: absolute;">
+      <nav>
+        <table class="center" id="tabulkaHeader">
+          <tr>
+            <td><a href="stranazaklad.html">Domů</a></td>
+            <td><a href="strana2.html">O nás</a></td>
+            <td><a href="strana3.html">Služby</a></td>
+            <td><a href="strana4.html">Kontakt</a></td>
+            <td><a href="strana5.html">Možnosti platby</a></td>
+          </tr>
+        </table>
+      </nav>
+      <div class="center-block" style="text-align: justify;">
+        <p style="text-align: center;">
+     v naší pojištovně se staráme o vaši bezpečnost a klidný spánek prostřednictvím našich špičkových pojišťovacích produktů. <br> S naším dlouholetým zkušenostmi a odhodláním vám poskytnout nejlepší ochranu, jsme tady, abychom vám nabídli řešení na míru.
+</p>
+
+
+      </div>
+
+<!-- <img src="man excited.jpg" alt="ecticed man"
+        style= "float:left;
+        width:900px;
+        height:600px;
+        position:relative;"> -->
+
+            <div class="row">
+                <div class="column">
+                  <h2>Pojistění Auta</h2>
+                  <p>Chraňte své cenné vozidlo s naším komplexním auto-pojištěním.   Nejenže vás kryjeme v případě nehody  nebo krádeže, ale také vám nabízíme asistenční služby pro vaše pohodlí na cestách.</p></div>
+                <div class="column"> 
+                  <h2> Životní pojistění</h2>
+                  <p>Vaše blaho a blaho vašich blízkých jsou naší prioritou. S naším  životním pojištěním můžete mít jistotu, že i v nečekaných situacích bude vaše br rodina chráněna a finančně zajištěna.</p></div> 
+                <div class="column">
+                  <h2> Domovní pojištění</h2>
+                  <p>Váš domov je více než jen místo, kde bydlíte. Je to bezpečné útočiště pro vás a vaši rodinu.
+                    Naše domovní pojištění vás kryje před riziky, jako jsou požáry, živelní události a neoprávněný vstup</p>
+                  
+                </div>
+            </div>
+        <div class="row">
+            <div class="column">
+                <img src="auto.jpg" alt="dum" style="width:550px; height: 400px;"></div>
+
+            <div class="column">
+                <img src="babička.png" alt="babička" style="width:550px; height: 400px;"></div>
+
+            <div class="column">
+                <img src="dum.jpg" alt="dum" style="width: 600px; height: 400px;"></div>
+            
+        </div>
+        <p style="color: #EDEDED;">ticho</p>
+        <p style="color: #EDEDED;">ticho</p>
+        <p style="color: #EDEDED;">ticho</p>
+        
+<footer>
+    &copy; 2024 Má stránka. Všechna práva vyhrazena.
+ </footer>
+</body>
+</html>
